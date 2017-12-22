@@ -7,8 +7,7 @@ public class StringFun {
 			String s = String.valueOf(letters[i][0]);
 			String j = s.toUpperCase();
 			letters[i][0] = j.toCharArray()[0];
-		}
-		
+		}	
 		return StringFun.toString(letters);
 	}
 	
